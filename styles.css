@@ -104,7 +104,7 @@ nav a:hover {
     max-width: 100%; /* Makes sure the image doesn't exceed its container width */
     height: auto;    /* Maintains aspect ratio */
     width: 25%;     /* Makes the image fill its container width */
-    /* You can also add other styles like margin, border, etc. */
+    /* You can also add other styles like margin, border, etc. test */
 }
 
 
