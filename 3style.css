@@ -120,6 +120,10 @@ footer {
         border-radius: 10px;
         box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
     }
+
+    .product-image {
+        width: 30%;
+    }
 }
 
 /* Computer-specific Styles (min-width: 768px) */
