@@ -1,5 +1,8 @@
 
 
+.contact-section{
+    padding-top: 20px;
+}
 /* Styles for screens with a maximum width of 767px (typical for mobile phones) */
 @media (max-width: 767px) {
         /* Mobile-specific styles here */
@@ -225,7 +228,7 @@ nav a:hover {
 .package {
     display: inline-block;
     width: 30%;
-    margin: 0 20px;
+    margin: 10px 20px;
     padding: 20px;
     background-color: #ffaf9e; /* Light coral package background */
     color: #5e4138; /* Darker coral text color */
