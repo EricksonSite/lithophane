@@ -1,0 +1,160 @@
+/* Shared Styles (for both mobile and computer screens) */
+
+body, h1, h2, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f9e3d7; /* Soft peach background */
+    color: #5e4138; /* Darker coral text color */
+}
+
+header {
+    background-color: #ffaf9e; /* Light coral header */
+    color: #5e4138; /* Darker coral text color */
+    padding: 10px 0;
+    text-align: center;
+    border-radius: 10px 10px 0 0;
+}
+
+header h1 {
+    font-size: 36px;
+}
+
+nav {
+    background-color: #ffaf9e; /* Light coral navigation bar */
+    text-align: center;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #5e4138; /* Darker coral text color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #ff6600; /* Change to orange on hover */
+}
+
+.container {
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff; /* White content background */
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Subtle shadow */
+}
+
+.container h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.image-section, .package-section {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.image-section img, .package {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.product-image {
+    width: 100%; /* Makes the image fill its container width */
+    height: auto; /* Maintains aspect ratio */
+}
+
+footer {
+    background-color: #ffaf9e; /* Light coral footer */
+    color: #5e4138; /* Darker coral text color */
+    text-align: center;
+    padding: 10px 0;
+    border-radius: 0 0 10px 10px;
+}
+
+/* Mobile-specific Styles (max-width: 767px) */
+@media (max-width: 767px) {
+    header h1 {
+        font-size: 28px; /* Slightly smaller font for mobile */
+    }
+
+    nav a {
+        font-size: 12px; /* Smaller font size for mobile */
+    }
+
+    .package {
+        display: block; /* Changed from inline-block for responsiveness */
+        width: 80%; /* Adjusted for responsiveness */
+        margin: 0 auto; /* Center packages horizontally */
+    }
+
+    .package {
+        width: 80%;
+        margin: 0 auto;
+        padding: 20px;
+        background-color: #ffaf9e; /* Light coral package background */
+        color: #5e4138; /* Darker coral text color */
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+    }
+}
+
+/* Computer-specific Styles (min-width: 768px) */
+@media (min-width: 768px) {
+    header h1 {
+        font-size: 36px; /* Restore original font size for computers */
+    }
+
+    nav a {
+        font-size: 16px; /* Restore original font size for computers */
+    }
+
+    .container {
+        max-width: 1200px; /* Larger max-width for computers */
+    }
+
+    .package {
+        width: 30%; /* Adjusted width for computers */
+        margin-bottom: 10px;
+    }
+
+    .product-image {
+        width: 25%; /* Adjusted width for computers */
+    }
+
+    .package {
+        display: inline-block;
+        width: 30%;
+        margin: 0 1%; /* Added margin for spacing between packages */
+        padding: 20px;
+        background-color: #ffaf9e; /* Light coral package background */
+        color: #5e4138; /* Darker coral text color */
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+        margin-bottom: 10px; /* Add the margin-bottom here */
+    }
+}
