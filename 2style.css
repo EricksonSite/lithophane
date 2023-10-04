@@ -98,7 +98,7 @@ nav a:hover {
 
 .package {
     display: block; /* Changed from inline-block for responsiveness */
-    width: 50%;    /* Adjusted for responsiveness */
+    width: 70%;    /* Adjusted for responsiveness */
     margin: 0 auto; /* Center packages horizontally */
     padding: 20px;
     background-color: #ffaf9e; /* Light coral package background */
